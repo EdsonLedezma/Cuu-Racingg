@@ -1,0 +1,10 @@
+Coloca aquí tus imágenes de fondo del menú principal.
+
+Archivos esperados:
+  bg_mainmenu.png   → fondo completo 1920x1080 (landscape + auto)
+  logo_cuuracing.png → logo (opcional, si prefieres imagen en lugar de texto)
+
+Después de copiar los archivos:
+  1. En Unity, selecciona el archivo en el Project
+  2. En el Inspector: Texture Type → Sprite (2D and UI) → Apply
+  3. Arrastra el sprite a Img_Background > Source Image en la escena MainMenu

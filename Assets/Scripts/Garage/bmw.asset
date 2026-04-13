@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fd0f5156916754c9781f9c0493b428, type: 3}
+  m_Name: bmw
+  m_EditorClassIdentifier: Assembly-CSharp::CuuRacing.Garage.CarData
+  carName: BMW M3 GTR E46
+  carPrefab: {fileID: 1162174379603879376, guid: b0228cefcb3fd9f4398e6e2f8da62975, type: 3}
+  acceleration: 75
+  topSpeed: 90
+  handling: 65
+  braking: 80
+  weight: 90
+  raceSceneName: 

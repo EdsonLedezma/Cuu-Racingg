@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fd0f5156916754c9781f9c0493b428, type: 3}
+  m_Name: toyota supra
+  m_EditorClassIdentifier: Assembly-CSharp::CuuRacing.Garage.CarData
+  carName: This is Supraaa
+  carPrefab: {fileID: 7486787342897076894, guid: 0e93f72cc8bd93a4793f9ed9c6bb6a72, type: 3}
+  acceleration: 80
+  topSpeed: 85
+  handling: 80
+  braking: 75
+  weight: 80
+  raceSceneName: 

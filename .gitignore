@@ -1,0 +1,100 @@
+# == Unity generated ==
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# == Third-party Asset Store packages (no subir — reinstalar desde Asset Store) ==
+# SlimUI Modern Menu
+/Assets/SlimUI/
+
+# BxB Studio / MVC
+/Assets/BxB Studio/
+
+# TextMesh Pro (se instala via Package Manager)
+/Assets/TextMesh Pro/
+
+# ============================================================
+# NOTA: Los assets anteriores se reinstalan así al clonar:
+#   1. SlimUI Modern Menu 1  → Unity Asset Store (gratis/pago)
+#   2. BxB Studio MVC        → ya está en Packages/ (package local)
+#   3. TextMeshPro           → Window > Package Manager > install TMP
+# ============================================================
+
+# == Packages lock (opcional: commitear packages-lock.json para reproducibilidad) ==
+# /Packages/packages-lock.json
+
+# == MVC Prefs (datos locales del editor, no necesarios en repo) ==
+/MVC Prefs/
+
+# == VS Code / Rider / Visual Studio ==
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# == OS generated ==
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# == JetBrains Rider ==
+.idea/
+*.DotSettings.user
+
+# == Plastic SCM (ya tienes .plastic/) ==
+# Descomenta si quieres ignorar datos de Plastic:
+# .plastic/
+
+# == Crash / profiler dumps ==
+*.stackdump
+sysinfo.txt
