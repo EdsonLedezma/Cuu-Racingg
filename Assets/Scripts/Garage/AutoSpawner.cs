@@ -82,13 +82,16 @@ namespace CuuRacing.Gameplay
                 }
             }
 
-            // 4. Limpiar los otros autos para no confundir al Multiversal Vehicle Controller (MVC)
-            // Si los dejamos inactivos, el Manager o el VehicleFollower podrían colapsar buscando referencias inválidas.
+            // 4. Desactivar los otros autos (NO destruir, para que MVC no colapse)
             foreach (Transform child in drivableParent.transform)
             {
                 if (child.gameObject != targetCar)
                 {
-                    DestroyImmediate(child.gameObject);
+                    child.gameObject.SetActive(false);
+                }
+                else
+                {
+                    child.gameObject.SetActive(true);
                 }
             }
 

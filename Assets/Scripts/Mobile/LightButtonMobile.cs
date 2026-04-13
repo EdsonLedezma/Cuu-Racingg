@@ -39,7 +39,7 @@ namespace CuuRacing.Mobile
         private void InitializeLights()
         {
             // Buscar LightController
-            _lightController = FindObjectOfType<LightController>();
+            _lightController = FindFirstObjectByType<LightController>();
 
             if (_lightController != null)
             {
