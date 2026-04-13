@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: golfitoooo
   m_EditorClassIdentifier: Assembly-CSharp::CuuRacing.Garage.CarData
   carName: Golf MK7 2019
-  carPrefab: {fileID: 5764135701860547412, guid: ce6356d512748114db32999998a49506, type: 3}
+  carPrefab: {fileID: 8842604077785487784, guid: a35efbbaa9c4e0242bc516aa4ce9471a, type: 3}
   acceleration: 60
   topSpeed: 80
   handling: 70

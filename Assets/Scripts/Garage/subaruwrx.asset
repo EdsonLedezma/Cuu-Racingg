@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: subaruwrx
   m_EditorClassIdentifier: Assembly-CSharp::CuuRacing.Garage.CarData
   carName: Subaru WRX sti 2005
-  carPrefab: {fileID: 919132149155446097, guid: 5c9cc9341bd13694e9225ff8386e14b6, type: 3}
+  carPrefab: {fileID: 4026090250738074270, guid: d205a679cf7c0bd4fa6c29c289cb1722, type: 3}
   acceleration: 75
   topSpeed: 65
   handling: 80

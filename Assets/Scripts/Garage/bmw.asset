@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: bmw
   m_EditorClassIdentifier: Assembly-CSharp::CuuRacing.Garage.CarData
   carName: BMW M3 GTR E46
-  carPrefab: {fileID: 1162174379603879376, guid: b0228cefcb3fd9f4398e6e2f8da62975, type: 3}
+  carPrefab: {fileID: 1399486771376506441, guid: 2da263f399465a044b23a23cbf9ee24b, type: 3}
   acceleration: 75
   topSpeed: 90
   handling: 65

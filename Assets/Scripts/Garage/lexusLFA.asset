@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: lexusLFA
   m_EditorClassIdentifier: Assembly-CSharp::CuuRacing.Garage.CarData
   carName: Lexus LFA 2012
-  carPrefab: {fileID: 6859803594570668343, guid: edf759d53bc03804bb5c95faa082e9f4, type: 3}
+  carPrefab: {fileID: 909898866399966190, guid: f51d087dd01332e42b8e4db3127c618d, type: 3}
   acceleration: 90
   topSpeed: 90
   handling: 96
