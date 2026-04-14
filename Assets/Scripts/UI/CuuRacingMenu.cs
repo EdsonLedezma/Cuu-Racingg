@@ -16,6 +16,8 @@ namespace CuuRacing.UI
         public string garageSceneName = "Garage";
         [Tooltip("Nombre exacto de la escena de ajustes")]
         public string settingsSceneName = "Ajustes";
+        [Tooltip("Nombre exacto de la escena principal")]
+        public string mainMenuSceneName = "MainMenu";
 
         [Header("Panels")]
         public GameObject mainPanel;
@@ -56,6 +58,16 @@ namespace CuuRacing.UI
         {
             PlayClick();
             StartCoroutine(LoadSceneAsync(settingsSceneName));
+        }
+
+        /// <summary>
+        /// Carga la escena MainMenu. Asigna este método a cualquier botón de regreso.
+        /// </summary>
+        public void OnMainMenuClick()
+        {
+            PlayClick();
+            PlayerPrefs.Save();
+            StartCoroutine(LoadSceneAsync(mainMenuSceneName));
         }
 
         public void OnAjustesBack()
